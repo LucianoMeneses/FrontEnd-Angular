@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Projeto-Angular';
+
+  usuario = {login: '', senha: ''};
+
+  public login(){
+
+    console.log("teste login"+ this.usuario.login)
+  }
 }
